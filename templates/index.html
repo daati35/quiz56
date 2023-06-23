@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Movies and Tv shows</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<script src="/assets/script/script.js"></script>
+	<style type="text/css">
+		.sec{
+			border: solid;
+			border-color: black;
+			border-width:2px;
+			float:left;
+			border-radius: 10px;
+			margin: 1vh;
+		}
+		section{
+			width: 100%;
+		}
+		.sec:hover{
+			border-color: blue;
+		}
+		.sub-sec{
+			width: 100%;
+			border-radius: 10px 10px 0px 0px;
+		}
+		.txt-sec{
+			height: 5vh;
+			font-size: 2vh;
+			text-align: center;
+		}
+	</style>
+	<script type="text/javascript">
+		if(window.innerHeight>window.innerWidth) {
+			document.getElementsByTagName('style')[0].innerHTML=document.getElementsByTagName('style')[0].innerHTML+".sec{width:45%}";
+		} else {
+			document.getElementsByTagName('style')[0].innerHTML=document.getElementsByTagName('style')[0].innerHTML+".sec{width:31%}";
+		}
+	</script>
+</head>
+<body>
+	<nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<label class="logo">Movies and TV shows</label>
+		<ul>
+			<li><a class="active" href="/">Home</a></li>
+			<li><a href="about">About</a></li>
+			<li><a href="contact">Contact</a></li>
+		</ul>
+	</nav>
+	<section>
+		<div class="sec" onclick="window.location.href='lotr_1'">
+			<img class="sub-sec" src="/assets/pic/1.jpg">
+			<div class="txt-sec">The Lord of the Rings: The Fellowship of the Ring</div>
+		</div>
+		<div class="sec" onclick="window.location.href='sw_esb'">
+			<img class="sub-sec" src="/assets/pic/2.jpg">
+			<div class="txt-sec">The Empire Strikes Back</div>
+		</div>
+		<div class="sec" onclick="window.location.href='django'">
+			<img class="sub-sec" src="/assets/pic/3.jpg">
+			<div class="txt-sec">Django Unchained</div>
+		</div>
+		<div class="sec" onclick="window.location.href='gentlemen'">
+			<img class="sub-sec" src="/assets/pic/4.jpg">
+			<div class="txt-sec">The Gentlemen</div>
+		</div>
+		<div class="sec" onclick="window.location.href='kill_bill'">
+			<img class="sub-sec" src="/assets/pic/5.jpg">
+			<div class="txt-sec">Kill Bill Volume 1</div>
+		</div>
+		<div class="sec" onclick="window.location.href='snatch'">
+			<img class="sub-sec" src="/assets/pic/6.jpg">
+			<div class="txt-sec">Snatch</div>
+		</div>
+		<div class="sec" onclick="window.location.href='succession'">
+			<img class="sub-sec" src="/assets/pic/7.jpg">
+			<div class="txt-sec">Succession</div>
+		</div>
+		<div class="sec" onclick="window.location.href='ted_lasso'">
+			<img class="sub-sec" src="/assets/pic/8.jpg">
+			<div class="txt-sec">Ted Lasso</div>
+		</div>
+
+	</section>
+</body>
+</html>
