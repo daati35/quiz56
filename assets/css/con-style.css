@@ -30,7 +30,7 @@ ul{
   box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
 }
 
-/*All the direct elements in wrapper*/
+
 .wrapper > * {
   padding: 1em;
 }
@@ -48,7 +48,7 @@ ul{
   background: #f9feff;
 }
 
-/* Form Styles */
+
 
 .contact form {
   display:grid;
@@ -91,7 +91,7 @@ ul{
   transition: background-color 2s ease-out;
 }
 
-/* Large Screens */
+
 @media(min-width: 700px) {
   .wrapper {
     display: grid;
